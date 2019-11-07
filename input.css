@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+	padding: 0;
+	background: url(p8.jpg);
+	background-size: 100%;
+    font-family: sans-serif;
+    background-color: pink;
+ 
+    
+
+}
+
+.login{
+    background-color: #fff;
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+
+}
+.login h2{
+    margin: 0 0 10px;
+    width:  100%;
+    margin-bottom: 15px;
+}
+
+.login .input-group{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login .input-group input{
+    height: 40px;
+    width: 100%;
+    padding: 0 0px;
+    box-sizing: border-box;
+    font-size: 15px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.login .input-group span{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    padding: 0px;
+    text-transform: capitalize;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.login .input-group input:focus ~ span,
+.login .input-group input:valid ~ span{
+    top: -12px;
+    left: 20px;
+    font-size: 10px;
+    background-color: pink;
+    padding: 2px 4px;
+    border: 1px solid #000;
+    border-radius: 5px;
+
+}
+
+.login .input-group input[type="radio"]{
+    background-color: pink;
+    border: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    width; 3%;
+    transition:  0.5s;
+}
+.login .input-group input[type="radio"]:hover{
+    width: 10%;
+    background-color: rgba(255,0,0,0.5);
+    color: #fff;
+    
+
+}
+
+.login .input-group input[type="submit"]{
+    background-color: pink;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    width; 100%;
+    transition:  0.5s;
+}
+
+.login .input-group input[type="submit"]:hover{
+    width: 50%;
+    background-color: rgba(255,0,0,0.5);
+    color: #fff;
+
+}
+select{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+.login .input-group input[type="radio"]{
+ padding :10px;
+    width: 10%;
+    border-radius: 5px;
+}
+nav{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+nav ul {
+    background: rgba(0,0,0,.5);
+    padding: 0px 20px;
+    list-style: none ;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    
+
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a:hover {
+    background:black;
+}
+
+nav ul li a {
+    display: block;
+    padding: 25px;   
+    text-decoration: none;   
+    color: white;
+}
+
+nav ul ul{
+    background: black;
+    border-radius: 0px;
+    padding: 0%;
+    position: absolute;
+    top: 100%;
+}
+
+nav ul ul li {
+    float: none ;
+    border-top: 1px;
+    border-bottom: 1px;
+    position: relative;
+}
+
+nav ul ul li a{
+    padding: 15px 20px ;
+    color:white;
+}
+
+nav ul ul li a :hover {
+    background-color:blanchedalmond;
+}
+
+nav ul ul{
+    display: none;
+}
+
+nav ul li:hover > ul{
+    display: block;
+    width: 250px;
+}
+
